@@ -90,10 +90,5 @@ chr_compare(threeR, noThreeR)
 
 # Get the lowest p-value from all window comparisons and print it
 # This will be the output of the file
-
 min_pvalue = min(p_values)
-yes = p_values.index(min_pvalue)
-
-print("============")
 print(min_pvalue)
-print(yes)
